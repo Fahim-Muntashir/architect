@@ -10,6 +10,15 @@
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.explore-btn:hover {
+    background-color: #ff8800;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 /* global style end */
@@ -127,7 +136,7 @@ nav ul li a {
 /* love section start */
 
 .about {
-    margin: 200px 0;
+    margin: 100px 0;
 }
 
 .love {
@@ -211,4 +220,139 @@ nav ul li a {
 
 .over-div p {
     font-size: 20px;
+}
+
+/* Fact section start
+---------------------------- */
+.fact-text h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.fact-text p {
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 70px;
+}
+
+/*achivement contoinaer section start
+====================================*/
+
+.achivement-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.achivement {
+    text-align: center;
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 36px;
+}
+
+.achivement h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.achivement p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    margin: 5px 0;
+}
+
+/* sponser section start
+========================*/
+.sponser {
+    text-align: center;
+    margin: 150px 0;
+}
+
+.sponser-text h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin: 24px 0;
+}
+
+.sponser-text p {
+    margin: 0 auto;
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.sponser-logo {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 140px;
+    margin: 50px 0;
+}
+
+.sponser-logo img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(90%);
+}
+
+/* contact section start
+===================== */
+.contact {
+    margin: 100px 0;
+    display: flex;
+}
+
+.contact-img {
+    width: 50%;
+}
+
+.contact-detail {
+    width: 50%;
+}
+
+.contact-detail h1 {
+    font-size: 40px;
+}
+
+form input,
+textarea {
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #9b979773;
+    border-radius: 2px;
+}
+
+
+/* 
+foter section start
+=======================*/
+
+footer {
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 100px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+footer p {
+    padding: 39px 0;
 }
