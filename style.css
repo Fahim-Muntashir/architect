@@ -81,7 +81,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 .feature-img {
@@ -103,10 +103,14 @@ nav ul li a {
     margin-left: 5%;
 }
 
+.feature-text h2 {
+    font-size: 40px;
+}
+
 .feature-text .glow-text {
     color: #FF900E;
     font-weight: bold;
-    font-size: 30px
+    font-size: 38px
 }
 
 .first-glow {
@@ -117,4 +121,94 @@ nav ul li a {
     width: 80%;
     margin: 20px 0;
     color: #727272;
+}
+
+/* feature section end */
+/* love section start */
+
+.about {
+    margin: 200px 0;
+}
+
+.love {
+    display: flex;
+}
+
+.love-text,
+.love-img {
+    width: 50%;
+
+}
+
+.love-img img {
+    width: 708px;
+    height: 982px;
+}
+
+.border-div {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.border-div h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.about-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 24px 0;
+    width: 586px;
+
+}
+
+.card {
+    padding: 30px;
+    margin-top: 20px;
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.card h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.over-div {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    text-align: center;
+    padding: 46px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    left: 46%;
+    bottom: 159px;
+}
+
+.over-div h2 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.over-div p {
+    font-size: 20px;
 }
